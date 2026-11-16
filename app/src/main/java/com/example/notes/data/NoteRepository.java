@@ -125,8 +125,6 @@ public class NoteRepository {
         List<Note> remoteNotes = remote == null ? new ArrayList<>() : NoteJson.fromJson(remote.content);
         Timber.d("Downloaded %d notes from Drive", remoteNotes.size());
 
-        // Читання локальних даних, злиття і запис - в одній транзакції, щоб не втратити
-        // зміни, зроблені користувачем під час завантаження з мережі.
         List<Note> merged = new ArrayList<>();
         database.runInTransaction(() -> {
             List<Note> local = dao.getAll();

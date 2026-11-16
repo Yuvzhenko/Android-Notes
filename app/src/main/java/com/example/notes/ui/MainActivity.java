@@ -130,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
                 .authorize(request)
                 .addOnSuccessListener(result -> {
                     if (result.hasResolution()) {
-                        // Потрібен вибір акаунта / згода користувача
                         PendingIntent pendingIntent = result.getPendingIntent();
                         if (pendingIntent == null) {
                             viewModel.reportAuthFailure();

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+
+    <!-- Menu -->
+    <string name="menu_sync">Sync with Google Drive</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- Notes list -->
+    <string name="empty_notes">No notes yet.\nTap + to create one.</string>
+    <string name="cd_add_note">Add note</string>
+    <string name="untitled_note">Untitled</string>
+    <plurals name="notes_count">
+        <item quantity="one">%d note</item>
+        <item quantity="other">%d notes</item>
+    </plurals>
+
+    <!-- Editor -->
+    <string name="title_new_note">New note</string>
+    <string name="title_edit_note">Edit note</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Write your note…</string>
+    <string name="last_edited">Edited: %1$s</string>
+    <string name="error_empty_note">The note is empty</string>
+    <string name="delete_confirm_title">Delete note?</string>
+    <string name="delete_confirm_message">The note will be removed from this device and from Google Drive after the next sync.</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Language -->
+    <string name="dialog_language_title">Choose language</string>
+    <string name="language_system">System default</string>
+    <string name="language_english">English</string>
+    <string name="language_ukrainian">Українська</string>
+
+    <!-- Sync status -->
+    <string name="sync_success">Notes synchronized</string>
+    <string name="sync_error_auth">Could not sign in to Google Drive</string>
+    <string name="sync_error_network">Network error. Please try again later.</string>
+    <string name="sync_error_unknown">Synchronization failed</string>
+</resources>

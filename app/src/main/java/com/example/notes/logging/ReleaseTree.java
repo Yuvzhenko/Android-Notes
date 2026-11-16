@@ -18,7 +18,6 @@ public class ReleaseTree extends Timber.Tree {
 
     @Override
     protected void log(int priority, @Nullable String tag, @NonNull String message, @Nullable Throwable t) {
-        String fullMessage = t == null ? message : message + "\n" + Log.getStackTraceString(t);
-        Log.println(priority, tag != null ? tag : DEFAULT_TAG, fullMessage);
+        Log.println(priority, tag != null ? tag : DEFAULT_TAG, message);
     }
 }

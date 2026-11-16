@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Нотатки</string>
+
+    <!-- Menu -->
+    <string name="menu_sync">Синхронізувати з Google Drive</string>
+    <string name="menu_language">Мова</string>
+    <string name="menu_save">Зберегти</string>
+    <string name="menu_delete">Видалити</string>
+
+    <!-- Notes list -->
+    <string name="empty_notes">Нотаток ще немає.\nНатисніть +, щоб створити.</string>
+    <string name="cd_add_note">Додати нотатку</string>
+    <string name="untitled_note">Без назви</string>
+    <plurals name="notes_count">
+        <item quantity="one">%d нотатка</item>
+        <item quantity="few">%d нотатки</item>
+        <item quantity="many">%d нотаток</item>
+        <item quantity="other">%d нотатки</item>
+    </plurals>
+
+    <!-- Editor -->
+    <string name="title_new_note">Нова нотатка</string>
+    <string name="title_edit_note">Редагування нотатки</string>
+    <string name="hint_title">Заголовок</string>
+    <string name="hint_content">Напишіть нотатку…</string>
+    <string name="last_edited">Змінено: %1$s</string>
+    <string name="error_empty_note">Нотатка порожня</string>
+    <string name="delete_confirm_title">Видалити нотатку?</string>
+    <string name="delete_confirm_message">Нотатку буде видалено з цього пристрою та з Google Drive після наступної синхронізації.</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_cancel">Скасувати</string>
+
+    <!-- Language -->
+    <string name="dialog_language_title">Оберіть мову</string>
+    <string name="language_system">Системна</string>
+    <string name="language_english">English</string>
+    <string name="language_ukrainian">Українська</string>
+
+    <!-- Sync status -->
+    <string name="sync_success">Нотатки синхронізовано</string>
+    <string name="sync_error_auth">Не вдалося увійти в Google Drive</string>
+    <string name="sync_error_network">Помилка мережі. Спробуйте пізніше.</string>
+    <string name="sync_error_unknown">Не вдалося виконати синхронізацію</string>
+</resources>
